@@ -1,12 +1,11 @@
-package functor
+package dynamic
 
 import (
-	"razor-functor/src/dynamic"
 	"testing"
 )
 
 func TestCall(t *testing.T) {
-	result := dynamic.Call(func(i int) int {
+	result := Call(func(i int) int {
 		return i + 1
 	}, 1, 2, 3, 4)
 	lenResult, lenTest := len(result), 4
