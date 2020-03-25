@@ -12,3 +12,15 @@ func TestFlatten(t *testing.T) {
 		t.Errorf("expected 5, but acutal is %d", n)
 	}
 }
+
+func TestMapper(t *testing.T) {
+	
+}
+
+func TestFilter(t *testing.T) {
+
+}
+
+func TestReduce(t *testing.T) {
+
+}
